@@ -1,6 +1,6 @@
 # TouchSensor
 
-# Touch Sensor.c
+# TouchSensor.c
 
 first run configure_touchSensor(); which will turn on the TSI module, as well as configure the TSI0 GENCS register to baseline values for use mode and turn on the interrupt enables.
 This will also call calibrate_touch(); which will initialize the sensor and zero it by calling read_baseline_values();
