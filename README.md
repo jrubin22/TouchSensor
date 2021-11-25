@@ -1,5 +1,11 @@
 # TouchSensor
 
+Master's Graduate project.  Runs on baremetal FRDM-KL25Z board.
+Including startup code and initialization for all drivers used.
+For project, created drivers and source code to turn capacitative touch sensor into touch button with 3-4 separate zones, with an algorithm that can sense where the user is touching and / or sliding
+
+
+
 # TouchSensor.c
 
 first run configure_touchSensor(); which will turn on the TSI module, as well as configure the TSI0 GENCS register to baseline values for use mode and turn on the interrupt enables.
